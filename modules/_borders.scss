@@ -1,0 +1,27 @@
+$avatar-border: 0%;
+$server-border: 15%;
+
+/* Avatars */
+.avatar-3uk_u9, .avatarWrapper-3H_478 {
+    foreignObject {
+        -webkit-mask: none;
+        mask: none;
+        border-radius: $avatar-border;
+    }
+}
+.avatar-1BDn8e, .acronym-1e2Mdt {
+    border-radius: $avatar-border;
+}
+
+/* Servers */
+.guilds-1SWlCJ {
+    foreignObject {
+        -webkit-mask: none;
+        mask: none;
+        border-radius: $server-border;
+    }
+}
+
+.guildIcon-2Tpnad, .folderIconWrapper-1_bOZe {
+    border-radius: $server-border;
+}

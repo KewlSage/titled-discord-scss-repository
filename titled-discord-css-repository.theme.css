@@ -1,0 +1,21 @@
+/**
+ * @name titled-discord-scss-repository
+ * @description my lil ole theme yes?
+ * @author KewlSagefromHypesquad#4269
+ * @authorId 289530617161580544
+ * @version 1.0.0
+ *
+ * @updateUrl https://kewlsage.github.io/titled-discord-css-repository/titled-discord-css-repository.theme.css
+ * @source https://github.com/KewlSage/titled-discord-css-repository
+ * @invite qafdmryEye
+ */
+
+ /*modules yay*/
+
+#app-mount {
+    display: none;
+}
+/*i know this doesnt work and i dont really care but*/
+body {
+    content: "get powercord or vizality";
+}

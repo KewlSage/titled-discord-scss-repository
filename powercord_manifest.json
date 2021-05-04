@@ -1,9 +1,9 @@
 {
-    "name": "titled-discord-css-repository",
+    "name": "titled-discord-scss-repository",
     "description": "my lil ole theme yes?",
     "version": "1.0.0",
     "author": "KewlSage from Hypesquad",
-    "theme": "titled-discord-css-repository.theme.css",
+    "theme": "inSex.scss",
     "consent": "false",
     "license": "anti-drivers-licence"
 }

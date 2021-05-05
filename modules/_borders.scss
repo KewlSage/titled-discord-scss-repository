@@ -1,13 +1,37 @@
-$avatar-border: 0%;
-$server-border: 15%;
+$avatar-border: 25%;
+$server-border: 0px;
 
 /* Avatars */
-.avatar-3uk_u9, .avatarWrapper-3H_478 {
+.wrapper-3t9DeA {
     foreignObject {
         -webkit-mask: none;
         mask: none;
         border-radius: $avatar-border;
     }
+    rect {
+        x: calc(100% - 7);
+        y: calc(50% - 3.5);
+        width: 7px;
+        height: 7px;
+        &[mask*="mobile"] {
+            height: 12px;
+            y: calc(50% - 6)
+        }
+    }
+    rect[width="16"] {
+        x: calc(100% - 12);
+        y: calc(50% - 6);
+        width: 12px;
+        height: 12px;
+        &[mask*="mobile"] {
+            height: 22px;
+            y: calc(50% - 11)
+        }
+    }
+    &+ svg .avatarHintInner-Dco91E{
+        box-shadow: none;
+    }
+
 }
 .avatar-1BDn8e, .acronym-1e2Mdt {
     border-radius: $avatar-border;
@@ -15,13 +39,15 @@ $server-border: 15%;
 
 /* Servers */
 .guilds-1SWlCJ {
-    foreignObject {
+    .base-PmTxvP{
+        box-shadow: none;
+    }
+    foreignObject, .base-PmTxvP {
         -webkit-mask: none;
         mask: none;
         border-radius: $server-border;
     }
 }
-
-.guildIcon-2Tpnad, .folderIconWrapper-1_bOZe {
+.guildIcon-2Tpnad, .folderIconWrapper-1_bOZe, .expandedFolderBackground-1cujaW {
     border-radius: $server-border;
 }

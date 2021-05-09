@@ -1,0 +1,1 @@
+I like to use discord development so some things might be for that and that alone for any given commit since it is according to some guy "basically discord canary with the absolute latest electron version" not sure if thats right but I use it because black icon.

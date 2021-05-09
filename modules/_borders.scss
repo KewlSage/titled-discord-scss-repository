@@ -1,8 +1,11 @@
-$avatar-border: 25%;
-$server-border: 0px;
+$avatar-border: 25%; /* 0 - 50 % */
+$server-border: 0px; /* 0 - 25 px */
+$scrollbar-border: 0px; /* 0 - 8 px */
 
 /* Avatars */
-.wrapper-3t9DeA {
+.wrapper-3t9DeA,
+.wrapper-2QE8vf,
+.row-1c01mR {
     foreignObject {
         -webkit-mask: none;
         mask: none;
@@ -24,15 +27,22 @@ $server-border: 0px;
         width: 12px;
         height: 12px;
         &[mask*="mobile"] {
-            height: 22px;
-            y: calc(50% - 11)
+            height: 20px;
+            y: calc(50% - 10)
         }
+    }
+    .dots-3Bkt3k {
+        display: none;
     }
     &+ svg .avatarHintInner-Dco91E{
         box-shadow: none;
     }
 }
-.avatar-1BDn8e, .acronym-1e2Mdt {
+.clickable-1bVtEA:not(.repliedTextPreview-2NBljf),
+ .avatarSpeaking-2c8-9i,
+ .voiceAvatar-14IynY,
+ .embedAuthorIcon--1zR3L,
+ .avatar-3bWpYy {
     border-radius: $avatar-border;
 }
 
@@ -47,6 +57,19 @@ $server-border: 0px;
         border-radius: $server-border;
     }
 }
-.guildIcon-2Tpnad, .folderIconWrapper-1_bOZe, .expandedFolderBackground-1cujaW {
+.guildIcon-2Tpnad,
+.folderIconWrapper-1_bOZe,
+.expandedFolderBackground-1cujaW {
     border-radius: $server-border;
 }
+
+/* Scrollbar */
+.auto-Ge5KZx::-webkit-scrollbar-thumb, 
+.auto-Ge5KZx::-webkit-scrollbar-track, 
+.webkit-HjD9Er::-webkit-scrollbar-thumb {
+    border-radius: $scrollbar-border;
+}
+.thin-1ybCId::-webkit-scrollbar-thumb {
+    --scrollbar-temp-var: $scrollbar-border;
+    border-radius: calc(var(--scrollbar-temp-var) / 2);
+} 

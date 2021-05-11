@@ -1,8 +1,8 @@
 $avatar-border: 25%; /* 0 - 50 % */
-$server-border: 0px; /* 0 - 25 px */
+$server-border: 25%; /* 0 - 50 % */
 $scrollbar-border: 0px; /* 0 - 8 px */
 
-/* Avatars */
+// Avatars.
 .wrapper-3t9DeA,
 .wrapper-2QE8vf,
 .row-1c01mR {
@@ -34,7 +34,7 @@ $scrollbar-border: 0px; /* 0 - 8 px */
     .dots-3Bkt3k {
         display: none;
     }
-    &+ svg .avatarHintInner-Dco91E{
+    &+ svg .avatarHintInner-Dco91E {
         box-shadow: none;
     }
 }
@@ -46,9 +46,9 @@ $scrollbar-border: 0px; /* 0 - 8 px */
     border-radius: $avatar-border;
 }
 
-/* Servers */
+// Servers.
 .guilds-1SWlCJ {
-    .base-PmTxvP{
+    .base-PmTxvP {
         box-shadow: none;
     }
     foreignObject, .base-PmTxvP {
@@ -59,12 +59,17 @@ $scrollbar-border: 0px; /* 0 - 8 px */
 }
 .guildIcon-2Tpnad,
 .folderIconWrapper-1_bOZe,
-.expandedFolderBackground-1cujaW,
 .wrapperSimple-19ogV2 {
     border-radius: $server-border;
 }
+.expandedFolderBackground-1cujaW {
+    margin: -4px 0px -4px 0px;
+    padding: 4px;
+    left: 8px;
+    border-radius: 10px;
+}
 
-/* Scrollbar */
+// Scrollbar.
 .auto-Ge5KZx::-webkit-scrollbar-thumb, 
 .auto-Ge5KZx::-webkit-scrollbar-track, 
 .webkit-HjD9Er::-webkit-scrollbar-thumb {

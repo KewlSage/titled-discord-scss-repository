@@ -1,8 +1,17 @@
+// explains it's self.
 #user-context-invite-to-server {
     display: none;
 }
 
+// you dont have enough of a life to know what this fixes.
 .row-1c01mR .avatarContainerMasked-PIJ-3L img {
     bottom: 6px;
     position: relative;
+}
+
+// settings pointer.
+.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada *,
+.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada {
+    pointer-events: auto !important;
+    will-change: unset;
 }

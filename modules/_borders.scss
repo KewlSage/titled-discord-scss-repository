@@ -38,11 +38,13 @@ $scrollbar-border: 0px; /* 0 - 8 px */
         box-shadow: none;
     }
 }
-.clickable-1bVtEA:not(.repliedTextPreview-2NBljf),
- .avatarSpeaking-2c8-9i,
- .voiceAvatar-14IynY,
- .embedAuthorIcon--1zR3L,
- .avatar-3bWpYy {
+.replyAvatar-1K9Wmr,
+.avatarSpeaking-2c8-9i,
+.speaking-B2MXPi,
+.voiceAvatar-14IynY,
+.wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after,
+.embedAuthorIcon--1zR3L,
+.avatar-3bWpYy {
     border-radius: $avatar-border;
 }
 

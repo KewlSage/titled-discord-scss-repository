@@ -15,3 +15,8 @@
     pointer-events: auto !important;
     will-change: unset;
 }
+
+// better than new default avatars
+[src="/assets/1f0bfc0865d324c2587920a7d80c609b.png"] {
+    content: url("https://cdn.discordapp.com/emojis/813865671237566475.png");
+}

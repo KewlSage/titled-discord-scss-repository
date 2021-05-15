@@ -4,6 +4,7 @@ $scrollbar-border: 0px; /* 0 - 8 px */
 
 // Avatars.
 .wrapper-3t9DeA,
+.avatarHint-1qgaV3,
 .wrapper-2QE8vf,
 .row-1c01mR {
     foreignObject {
@@ -34,9 +35,6 @@ $scrollbar-border: 0px; /* 0 - 8 px */
     .dots-3Bkt3k {
         display: none;
     }
-    &+ svg .avatarHintInner-Dco91E {
-        box-shadow: none;
-    }
 }
 .replyAvatar-1K9Wmr,
 .avatarSpeaking-2c8-9i,
@@ -44,7 +42,8 @@ $scrollbar-border: 0px; /* 0 - 8 px */
 .voiceAvatar-14IynY,
 .wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after,
 .embedAuthorIcon--1zR3L,
-.avatar-3bWpYy {
+.avatar-3bWpYy,
+.avatarMasked-3y6o4j {
     border-radius: $avatar-border;
 }
 

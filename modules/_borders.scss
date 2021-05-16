@@ -8,8 +8,8 @@ $scrollbar-border: 0px; /* 0 - 8 px */
 .wrapper-2QE8vf,
 .row-1c01mR {
     foreignObject {
-        -webkit-mask: none;
-        mask: none;
+        -webkit-mask: none !important;
+        mask: none !important;
         border-radius: $avatar-border;
     }
     rect {
@@ -43,7 +43,8 @@ $scrollbar-border: 0px; /* 0 - 8 px */
 .wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after,
 .embedAuthorIcon--1zR3L,
 .avatar-3bWpYy,
-.avatarMasked-3y6o4j {
+.avatarMasked-3y6o4j,
+.avatar-3tNQiO {
     border-radius: $avatar-border;
 }
 

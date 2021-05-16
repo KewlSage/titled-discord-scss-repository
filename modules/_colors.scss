@@ -3,7 +3,7 @@
 .theme-dark {
     --bg0: #000000;
     --bg1: #0a0a0a;
-    --bg2: #151515;
+    --bg2: #0f0f0f;
     --accent: 112, 0, 0;
 }
 
@@ -156,10 +156,11 @@
 // this is where the fun begins.
 html {
     --brand-experiment: rgb(var(--accent)) !important;
-    --brand-experiment-30a: rgba(var(--accent),0.4 ) !important;
+    --brand-experiment-15a: rgba(var(--accent),0.15 ) !important;
+    --brand-experiment-30a: rgba(var(--accent),0.3 ) !important;
     --brand-experiment-200: var(--text-normal) !important;
 }
-.userPopout-3XzG_A > div:not(),
+.userPopout-3XzG_A > div:not(h1),
 .expandedFolderBackground-1cujaWs,
 .container-1D34oG,
 .pageWrapper-1PgVDX,
@@ -170,6 +171,6 @@ html {
 .container-3ayLPN {
     background-color: var(--bg1) !important;
 }
-.option-96V44q.searchOption-zQ-1l6:not(.selected-rZcOL-)::after {
+.option-96V44q:not(.selected-rZcOL-)::after {
     background: var(--bg1) !important;
 }

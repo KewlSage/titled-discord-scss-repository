@@ -5,6 +5,7 @@ $scrollbar-border: 0px; /* 0 - 8 px */
 // Avatars.
 .wrapper-3t9DeA,
 .avatarHint-1qgaV3,
+.avatarHint-1E3LMl,
 .wrapper-2QE8vf,
 .row-1c01mR {
     foreignObject {
@@ -44,7 +45,20 @@ $scrollbar-border: 0px; /* 0 - 8 px */
 .embedAuthorIcon--1zR3L,
 .avatar-3bWpYy,
 .avatarMasked-3y6o4j,
-.avatar-3tNQiO {
+.avatar-3tNQiO,
+.avatarHint-1E3LMl {
+    border-radius: $avatar-border;
+}
+
+//profile banner fixes
+span.username-2b1r56.headerTagUsernameNoNickname-1SSLBc.headerTagUsernameBase-12nwcw {
+    overflow: hidden;
+}
+.avatar-22FtUu {
+    border: 3px solid black;
+    background-color: black;
+    left: 3px;
+    top: 3px;
     border-radius: $avatar-border;
 }
 

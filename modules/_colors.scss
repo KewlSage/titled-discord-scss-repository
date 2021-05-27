@@ -9,6 +9,7 @@
 
 
 // Overwriting stock variables, this makes things way easier then they could have been.
+html.theme-dark .theme-light,
 .theme-dark {
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
@@ -156,11 +157,35 @@
 // this is where the fun begins.
 html {
     --brand-experiment: rgb(var(--accent)) !important;
-    --brand-experiment-15a: rgba(var(--accent),0.15 ) !important;
-    --brand-experiment-30a: rgba(var(--accent),0.3 ) !important;
+    --brand-experiment-05a: rgba(var(--accent),0.05) !important;
+    --brand-experiment-10a: rgba(var(--accent),0.10) !important;
+    --brand-experiment-15a: rgba(var(--accent),0.15) !important;
+    --brand-experiment-30a: rgba(var(--accent),0.30) !important;
+    --brand-experiment-20a: rgba(var(--accent),0.20) !important;
+    --brand-experiment-25a: rgba(var(--accent),0.25) !important;
+    --brand-experiment-30a: rgba(var(--accent),0.30) !important;
+    --brand-experiment-35a: rgba(var(--accent),0.35) !important;
+    --brand-experiment-40a: rgba(var(--accent),0.40) !important;
+    --brand-experiment-45a: rgba(var(--accent),0.45) !important;
+    --brand-experiment-50a: rgba(var(--accent),0.50) !important;
+    --brand-experiment-55a: rgba(var(--accent),0.55) !important;
+    --brand-experiment-60a: rgba(var(--accent),0.60) !important;
+    --brand-experiment-65a: rgba(var(--accent),0.65) !important;
+    --brand-experiment-70a: rgba(var(--accent),0.70) !important;
+    --brand-experiment-75a: rgba(var(--accent),0.75) !important;
+    --brand-experiment-80a: rgba(var(--accent),0.80) !important;
+    --brand-experiment-85a: rgba(var(--accent),0.85) !important;
+    --brand-experiment-90a: rgba(var(--accent),0.90) !important;
+    --brand-experiment-95a: rgba(var(--accent),0.95) !important;
     --brand-experiment-200: var(--text-normal) !important;
+    --brand-experiment-360: rgb(var(--accent)) !important;
+    --brand-experiment-560: rgb(var(--accent)) !important;
+    --brand-experiment-600: rgba(var(--accent),0.85) !important;
+    --control-brand-foreground: rgb(var(--accent)) !important;
 }
-.userPopout-3XzG_A > div:not(h1),
+.uploadModal-2ifh8j,
+.paymentRowHeader-2sfDdN > div,
+.userPopout-3XzG_A > wetargf,
 .expandedFolderBackground-1cujaWs,
 .container-1D34oG,
 .pageWrapper-1PgVDX,
@@ -168,9 +193,16 @@ html {
     background-color: var(--bg2) !important;
 }
 .footer-2gL1pp,
+.footer-3mqk7D,
 .container-3ayLPN {
     background-color: var(--bg1) !important;
 }
 .option-96V44q:not(.selected-rZcOL-)::after {
     background: var(--bg1) !important;
+}
+.checkbox-1ix_J3 path[fill="#7289da"] {
+    fill: rgb(var(--accent));
+}
+::selection {
+    background: rgb(var(--accent));
 }

@@ -37,6 +37,9 @@ $scrollbar-border: 0px; /* 0 - 8 px */
         display: none;
     }
 }
+rect[mask*="typing"] {
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='M 21.6,3.6 H 2.4 C 1.08,3.6 0.012,4.68 0.012,6 L 0,18 c 0,1.32 1.08,2.4 2.4,2.4 H 21.6 C 22.92,20.4 24,19.32 24,18 V 6 C 24,4.68 22.92,3.6 21.6,3.6 Z M 10.8,7.2 h 2.4 v 2.4 h -2.4 z m 0,3.6 h 2.4 v 2.4 H 10.8 Z M 7.2,7.2 H 9.6 V 9.6 H 7.2 Z m 0,3.6 h 2.4 v 2.4 H 7.2 Z M 6,13.2 H 3.6 V 10.8 H 6 Z M 6,9.6 H 3.6 V 7.2 H 6 Z M 16.8,18 H 7.2 v -2.4 h 9.6 z m 0,-4.8 h -2.4 v -2.4 h 2.4 z m 0,-3.6 H 14.4 V 7.2 h 2.4 z m 3.6,3.6 H 18 v -2.4 h 2.4 z m 0,-3.6 H 18 V 7.2 h 2.4 z'/%3E%3C/svg%3E");
+}
 .replyAvatar-1K9Wmr,
 .avatarSpeaking-2c8-9i,
 .speaking-B2MXPi,
@@ -54,12 +57,15 @@ $scrollbar-border: 0px; /* 0 - 8 px */
 span.username-2b1r56.headerTagUsernameNoNickname-1SSLBc.headerTagUsernameBase-12nwcw {
     overflow: hidden;
 }
-.avatar-22FtUu {
-    border: 3px solid black;
+.avatar-2PN2-j {
+    border: 3px solid transparent;
     background-color: black;
+    border-radius: $avatar-border;
+}
+.avatar-22FtUu {
+    @extend .avatar-2PN2-j;
     left: 3px;
     top: 3px;
-    border-radius: $avatar-border;
 }
 
 // Servers.

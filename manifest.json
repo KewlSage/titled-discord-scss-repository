@@ -1,5 +1,5 @@
 {
-	"icon": "icon.png",
+	"icon": "/assets/icon.png",
     "name": "titled-discord-scss-repository",
     "description": "my lil ole theme yes?",
     "version": "1.0.0",

@@ -4,8 +4,7 @@ $scrollbar-border: 0px; /* 0 - 8 px */
 
 // Avatars.
 .wrapper-3t9DeA,
-.avatarHint-1qgaV3,
-.avatarHint-1E3LMl,
+.avatarHint-2A3RNb,
 .wrapper-2QE8vf,
 .row-1c01mR {
     foreignObject {
@@ -48,8 +47,8 @@ rect[mask*="typing"] {
 .embedAuthorIcon--1zR3L,
 .avatar-3bWpYy,
 .avatarMasked-3y6o4j,
-.avatar-3tNQiO,
-.avatarHint-1E3LMl {
+.avatar-37jOim,
+.avatarHint-2A3RNb {
     border-radius: $avatar-border;
 }
 
@@ -58,11 +57,11 @@ span.username-2b1r56.headerTagUsernameNoNickname-1SSLBc.headerTagUsernameBase-12
     overflow: hidden;
 }
 .avatar-2PN2-j {
-    border: 3px solid transparent;
+    border: 3px groove transparent;
     background-color: black;
     border-radius: $avatar-border;
 }
-.avatar-22FtUu {
+.avatar-37jOim {
     @extend .avatar-2PN2-j;
     left: 3px;
     top: 3px;

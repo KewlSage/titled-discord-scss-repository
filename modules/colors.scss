@@ -7,7 +7,6 @@
     --accent: 112, 0, 0;
 }
 
-
 // Overwriting stock variables, this makes things way easier then they could have been.
 html.theme-dark .theme-light,
 .theme-dark {
@@ -70,6 +69,7 @@ html.theme-dark .theme-light,
     --deprecated-text-input-border-hover: #040405;
     --deprecated-text-input-border-disabled: #202225;
     --deprecated-text-input-prefix: #dcddde;
+    .needAccount-23l_Wh{color:white;}
 }
 
 /*
@@ -189,12 +189,17 @@ html {
 .expandedFolderBackground-1cujaWs,
 .container-1D34oG,
 .pageWrapper-1PgVDX,
-.powercord-text {
+.powercord-text,
+.modal-yWgWj-,
+.badge-1JXQev,
+.perksModal-fSYqOq,
+:not(.layer-2KE1M9) .root-1gCeng {
     background-color: var(--bg2) !important;
 }
 .footer-2gL1pp,
 .footer-3mqk7D,
-.container-3ayLPN {
+.container-3ayLPN,
+.message-2qRu38 {
     background-color: var(--bg1) !important;
 }
 .option-96V44q:not(.selected-rZcOL-)::after {
@@ -218,3 +223,4 @@ html {
 ::selection {
     background: rgb(var(--accent));
 }
+

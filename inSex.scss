@@ -12,9 +12,9 @@
 	font-style: normal;
 }
 .wordmark-2iDDfm {
-	max-width:90vw;
-	overflow:hidden;
-	text-overflow:ellipsis;
+	max-width: 90vw;
+	overflow: hidden;
+	text-overflow: ellipsis;
 	&:after {
 		content: "KEWLCORD";
 		font-size: 15px;
@@ -24,6 +24,6 @@
 		color: rgb(var(--accentcolor));
 	}
 	svg {
-		display:none;
+		display: none;
 	}
 }

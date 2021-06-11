@@ -32,6 +32,16 @@ $scrollbar-border: 0px; /* 0 - 8 px */
             y: calc(50% - 10)
         }
     }
+    rect[width="24"] {
+        x: calc(100% - 18);
+        y: calc(50% - 9);
+        width: 18px;
+        height: 18px;
+        &[mask*="mobile"] {
+            height: 25px;
+            y: calc(50% - 12.5)
+        }
+    }
     .dots-3Bkt3k {
         display: none;
     }
@@ -57,14 +67,20 @@ span.username-2b1r56.headerTagUsernameNoNickname-1SSLBc.headerTagUsernameBase-12
     overflow: hidden;
 }
 .avatar-2PN2-j {
-    border: 3px groove transparent;
-    background-color: black;
+    border: 1px solid black;
+    background-color: #202020;
     border-radius: $avatar-border;
 }
 .avatar-37jOim {
     @extend .avatar-2PN2-j;
-    left: 3px;
-    top: 3px;
+    left: 5px;
+    top: 5px;
+}
+//large
+.avatar-AvHqJA {
+    border: 3px solid black;
+    background-color: #202020;
+    border-radius: $avatar-border;
 }
 
 // Servers.

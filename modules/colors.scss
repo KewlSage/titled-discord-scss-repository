@@ -4,6 +4,7 @@
     --bg0: #000000;
     --bg1: #0a0a0a;
     --bg2: #0f0f0f;
+    --bg3: #141414;
     --accent: 112, 0, 0;
 }
 
@@ -25,7 +26,7 @@ html.theme-dark .theme-light,
     --background-secondary-alt: var(--bg1);
     --background-tertiary: var(--bg0);
     --background-accent: #4f545c;
-    --background-floating: #18191c;
+    --background-floating: var(--bg3);
     --background-mobile-primary: #36393f;
     --background-mobile-secondary: #2f3136;
     --background-modifier-hover: rgba(79,84,92,0.16);
@@ -193,7 +194,7 @@ html {
 .modal-yWgWj-,
 .badge-1JXQev,
 .perksModal-fSYqOq,
-.app-1q1i1E .root-1gCeng,
+.root-1gCeng:not(.modal-qgFCbT),
 .header-1TKi98,
 .content-1LAB8Z {
     background-color: var(--bg2) !important;
